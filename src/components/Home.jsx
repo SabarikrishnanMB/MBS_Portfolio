@@ -8,11 +8,11 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-400 text-xl py-4 max-w-full">
-            I have completed my MERN stack development course and having
+            I have completed my MERN stack development course in GUVI-IIT Madras and having
             hands-on experience in web application and creating Full Stack
             Projects and I, attend hackathons.
             <br/>
@@ -21,7 +21,6 @@ const Home = () => {
             MongoDB.
           </p>
         </div>
-
         <div></div>
       </div>
     </div>

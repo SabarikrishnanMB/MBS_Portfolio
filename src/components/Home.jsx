@@ -1,13 +1,13 @@
 import React from "react";
 import { MdLaunch } from "react-icons/md";
-import { MdOutlineKeyboardArrowRight} from "react-icons/md";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen mx-auto w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -42,28 +42,6 @@ const Home = () => {
               rel="noreferrer"
             >
               Resume
-              <span className="group-hover:rotate-0 duration-300">
-                <MdLaunch size={25} className="ml-1" />
-              </span>
-            </a>
-            <a
-              className="group text-white w-fit px-6 py-3 my-2 ml-4 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
-              href="https://github.com/SabarikrishnanMB"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-              <span className="group-hover:rotate-0 duration-300">
-                <MdLaunch size={25} className="ml-1" />
-              </span>
-            </a>
-            <a
-              className="group text-white w-fit px-6 py-3 my-2 ml-4 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
-              href="https://www.linkedin.com/in/m-b-sabari-krishnan-705a01b2/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
               <span className="group-hover:rotate-0 duration-300">
                 <MdLaunch size={25} className="ml-1" />
               </span>

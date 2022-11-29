@@ -36,7 +36,7 @@ const Home = () => {
               </span>
             </Link>
             <a
-              className="group text-white w-fit px-6 py-3 my-2 ml-2 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
+              className="group text-white w-fit px-6 py-3 my-2 ml-4 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
               href="https://drive.google.com/file/d/16dUyqod64PFCMI92-AT-VsdfaWjOTF32/view?usp=sharing"
               target="_blank"
               rel="noreferrer"

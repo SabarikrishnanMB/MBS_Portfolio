@@ -46,6 +46,28 @@ const Home = () => {
                 <MdLaunch size={25} className="ml-1" />
               </span>
             </a>
+            <a
+              className="group text-white w-fit px-6 py-3 my-2 ml-4 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
+              href="https://github.com/SabarikrishnanMB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+              <span className="group-hover:rotate-0 duration-300">
+                <MdLaunch size={25} className="ml-1" />
+              </span>
+            </a>
+            <a
+              className="group text-white w-fit px-6 py-3 my-2 ml-4 flex items-center rounded-md bg-gradient-to-r from-gray-500 to-gray-700 cursor-pointer hover:scale-110 duration-300"
+              href="https://www.linkedin.com/in/m-b-sabari-krishnan-705a01b2/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+              <span className="group-hover:rotate-0 duration-300">
+                <MdLaunch size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
       </div>

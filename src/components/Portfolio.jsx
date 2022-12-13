@@ -34,7 +34,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold">
             Projects :
           </p>
-          <p className="py-6 text-gray-300">Check out some of my work right here</p>
+          <p className="py-6 text-xl text-gray-300">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

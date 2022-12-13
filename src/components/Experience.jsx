@@ -86,7 +86,7 @@ const Experience = () => {
           <p className="text-4xl font-bold p-2">
             Skills :
           </p>
-          <p className="py-6 text-gray-300">These are the Technologies I've worked with</p>
+          <p className="py-6 text-xl text-gray-300">These are the Technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

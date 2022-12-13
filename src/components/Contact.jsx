@@ -13,8 +13,8 @@ const Contact = () => {
           <p className="text-4xl font-bold">
             Contact :
           </p>
-          <p className="py-5 text-gray-300">Submit the form below to get in touch with me Otherwise</p>
-          <p className="py-1 text-gray-300">
+          <p className="py-5 text-xl text-gray-300">Submit the form below to get in touch with me Otherwise</p>
+          <p className="py-1 text-xl text-gray-300">
             Send a E-Mail to: mbsabarikrishnan@gmail.com or Contact Me:
             +918778766057
           </p>

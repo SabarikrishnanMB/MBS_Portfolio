@@ -1,7 +1,6 @@
 import React from "react";
 import Airbnb from "../assets/portfolio/AirbnbClone.jpg";
 import CRM from "../assets/portfolio/CRM.jpg";
-import Weather from "../assets/portfolio/WeatherAPI.jpg";
 import { MdLaunch } from "react-icons/md";
 
 const Portfolio = () => {
@@ -22,26 +21,20 @@ const Portfolio = () => {
       client: "	https://github.com/SabarikrishnanMB/crm_app",
       server: "https://github.com/SabarikrishnanMB/crm_nodejs",
     },
-    {
-      id: 3,
-      src: Weather,
-      name: "RestCountry Weather API",
-      link: "https://day18-restcountryapi.netlify.app/",
-      client: "https://github.com/SabarikrishnanMB/Day18_RestCountryAPI",
-    },
+    
   ];
 
   return (
     <div
       name="projects"
-      className="h-250 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-250 pt-20"
+      className="h-250 bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-250 pt-24"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold">
             Projects :
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-gray-300">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

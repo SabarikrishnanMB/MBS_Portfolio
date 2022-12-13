@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
-          <p className="text-gray-400 text-xl py-4 max-w-full">
+          <p className="text-gray-300 text-xl py-4 max-w-full">
             I have completed my MERN stack development course in GUVI-IIT Madras
             and having hands-on experience in web application and creating Full
             Stack Projects and I, attend hackathons.

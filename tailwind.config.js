@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Oswald"],
+      signature: ["Roboto"],
     },
   },
   plugins: [],

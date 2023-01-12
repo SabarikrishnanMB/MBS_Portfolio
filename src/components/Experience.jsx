@@ -42,32 +42,27 @@ const Experience = () => {
       title: "Node Js",
       style: "shadow-green-400",
     },
+    
     {
       id: 6,
-      src: express,
-      title: "Express Js",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 7,
       src: mongodb,
       title: "Mongo DB",
       style: "shadow-green-400",
     },
     {
-      id: 8,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 8,
       src: bootstrap,
       title: "BootStrap",
       style: "shadow-violet-500",
     },
     {
-      id: 10,
+      id: 9,
       src: tailwind,
       title: "TailWind CSS",
       style: "shadow-blue-300",
@@ -79,7 +74,7 @@ const Experience = () => {
   return (
     <div
       name="skills"
-      className="flex-wrap bg-gradient-to-b from-gray-800 to-black w-full min-h-150 md:h-screen pt-96"
+      className="flex-wrap bg-gradient-to-b from-gray-800 to-black w-full h-full md:h-screen pt-96"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

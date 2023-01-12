@@ -1,6 +1,7 @@
 import React from "react";
 import Airbnb from "../assets/portfolio/AirbnbClone.jpg";
 import CRM from "../assets/portfolio/CRM.jpg";
+import Zoom from "../assets/portfolio/Zoom.jpg";
 import { MdLaunch } from "react-icons/md";
 
 const Portfolio = () => {
@@ -15,12 +16,21 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: Zoom,
+      name: "Zoom App",
+      link: "https://zoomfrontend.netlify.app/",
+      client: "https://github.com/SabarikrishnanMB/Zoom-Frontend",
+      server: "https://github.com/SabarikrishnanMB/Zoom-Backend",
+    },
+    {
+      id: 3,
       src: CRM,
       name: "CRM App",
       link: "https://crm-app-ui.netlify.app/",
       client: "	https://github.com/SabarikrishnanMB/crm_app",
       server: "https://github.com/SabarikrishnanMB/crm_nodejs",
-    },
+    },  
+    
     
   ];
 

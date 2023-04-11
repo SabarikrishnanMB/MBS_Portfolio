@@ -2,6 +2,8 @@ import React from "react";
 import Airbnb from "../assets/portfolio/AirbnbClone.jpg";
 import CRM from "../assets/portfolio/CRM.jpg";
 import Zoom from "../assets/portfolio/Zoom.jpg";
+import Toll from "../assets/portfolio/Toll.jpg";
+import Quotesapp from "../assets/portfolio/Quotesapp.jpg";
 import { MdLaunch } from "react-icons/md";
 
 const Portfolio = () => {
@@ -14,24 +16,41 @@ const Portfolio = () => {
       client: "https://github.com/SabarikrishnanMB/Airbnb-frontend",
       server: "https://github.com/SabarikrishnanMB/Airbnb-backend",
     },
+
     {
       id: 2,
+      src: Quotesapp,
+      name: "Quotes App",
+      link: "https://quotesappfrontend.netlify.app/",
+      client: "https://github.com/SabarikrishnanMB/QuotesAppFrontend",
+      server: "https://github.com/SabarikrishnanMB/QuotesAppBackend",
+    },
+    
+    {
+      id: 3,
       src: Zoom,
       name: "Zoom App",
       link: "https://zoomfrontend.netlify.app/",
       client: "https://github.com/SabarikrishnanMB/Zoom-Frontend",
       server: "https://github.com/SabarikrishnanMB/Zoom-Backend",
     },
+
     {
-      id: 3,
+      id: 4,
+      src: Toll,
+      name: "Toll Management",
+      link: "https://basictollmanagement.netlify.app/",
+      client: "https://github.com/SabarikrishnanMB/Toll-Management",
+    },
+
+    {
+      id: 5,
       src: CRM,
       name: "CRM App",
       link: "https://crm-app-ui.netlify.app/",
       client: "	https://github.com/SabarikrishnanMB/crm_app",
       server: "https://github.com/SabarikrishnanMB/crm_nodejs",
-    },  
-    
-    
+    },
   ];
 
   return (
@@ -41,10 +60,10 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold">
-            Projects :
+          <p className="text-4xl font-bold">Projects :</p>
+          <p className="py-6 text-xl text-gray-300">
+            Check out some of my work right here
           </p>
-          <p className="py-6 text-xl text-gray-300">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -82,7 +101,9 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-      </div><br/><br/>
+      </div>
+      <br />
+      <br />
     </div>
   );
 };

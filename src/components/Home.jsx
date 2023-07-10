@@ -15,13 +15,16 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-300 text-xl py-4 max-w-full">
-            I have completed my MERN stack development course in GUVI-IIT Madras
-            and having hands-on experience in web application and creating Full
-            Stack Projects and I, attend hackathons.
+            
+            I have successfully completed my MERN stack development course at GUVI-IIT Madras 
+            and gained hands-on experience in developing web applications and creating full-stack projects. 
+            
             <br />
-            Currently, I looking for a job from which i get trained technologies
-            like HTML, CSS, Javascript, React Js, Node Js, Express Js and
-            MongoDB.
+            
+            Currently, I am actively seeking a job opportunity where I can continue to grow 
+            and receive training in technologies such as HTML, CSS, JavaScript, React.js, 
+            Node.js, Express.js, and MongoDB.
+
           </p>
           <div className="flex flex-row">
             <Link

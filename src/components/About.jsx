@@ -14,18 +14,15 @@ const About = () => {
         </div>
 
         <p className="text-xl text-gray-300 pb-3 mt-15">
-          I Seek to work in a competitive field and ready to accept the
-          challenges, utilizing my skills, would like to work with a highly
-          esteemed company which gives me a platform to use my expertise and
-          skills for mutual growth and benefit of company and myself.
+          I seek to work in a competitive field and I am ready to accept challenges, utilizing my skills.
+          I would like to work with an esteemed company that provides me a platform to use my expertise 
+          and skills for the mutual growth and benefit of both the company and myself.
         </p>
         <p className="text-xl text-gray-300 pb-3 mt-2">
-          I Started off my self-learning journey with online tutorials Google,
-          YouTube, etc and took a step further and Enrolled in the GUVI IIT
-          MADRAS Fullstack Developement Program which involved extensive
-          programming and real world projects. Later, I learned MERN Stack From
-          Guvi and built an Website using HTML, CSS, Javascript, React Js, Node
-          Js, Express Js, MongoDB.
+          I started my self-learning journey with online tutorials from Google, YouTube, etc.
+          I then took a step further and enrolled in the GUVI IIT MADRAS Fullstack Development Program,
+          which involved extensive programming and real-world projects. Later on, I learned the MERN Stack from Guvi 
+          and built a website using HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB.
         </p>
         <div className="pb-8">
           <p className="text-3xl font-bold mt-1">
